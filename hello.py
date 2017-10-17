@@ -1,2 +1,5 @@
+import sys
 
-print('Hello')
+who = sys.argv[1]
+
+print('Hello {}'.format(who))
