@@ -1,5 +1,6 @@
+import sys
 
-# please do not say no
-print("No~")
+# you shall remove the '#' in the next line
+who = sys.argv[1]
 
-print('Hello')
+print('Hello {}'.format(who))
